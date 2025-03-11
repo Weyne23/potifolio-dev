@@ -1,0 +1,44 @@
+header {
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    height: 750px;
+    background-image: url("../assets/images/Background_Intro.png");
+    row-gap: 80px;
+}
+
+#description {
+    justify-items: center;
+    text-align: center;
+    height: 327px;
+    width: 680px;
+
+    span{
+        color: var(--color-red);
+    }
+}
+
+#avatar {
+    margin-bottom: 56px;
+}
+
+#skills {
+    gap: 16px;
+    font: var(--text-md);
+
+    img { 
+        height: 24px;
+    }
+    
+    div {
+        display: flex;
+        padding: 8px 16px;
+        background-color: var(--color-gray-300);
+        border-radius: 30px;
+        align-items: center;
+
+        img {
+            padding-right: 8px;
+        }
+    }
+}
