@@ -36,16 +36,20 @@ body {
     color: var(--color-gray-500);
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     font: inherit;
 }
 
 main {
     padding-block: 72px 144px;
     padding-inline: 120px;
-    background-color: var(--color-gray-100);
+    background-color: var(--color-gray-200);
     justify-content: center;
     text-align: center;
+}
+
+aside {
+    background-color: var(--color-gray-100);
 }
 
 .container {
@@ -53,6 +57,11 @@ main {
     margin-inline: auto;
 }
 
-.title {
+.titles {
+    & > h3 {
+        color: var(--color-red);
+        margin-bottom: 8px;
+    }
 
+    margin-bottom: 56px;
 }

@@ -1,13 +1,47 @@
 #projects {
     width: 1040px;
+    padding-bottom: 120px;
 }
+
+#my-services {
+    padding-inline: 120px;
+    padding-block: 88px 120px;
+    text-align: center;
+
+    #services {
+        margin-top: 56px;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        & > div {
+            border: 1px solid var(--color-gray-300);
+            border-radius: 12px;
+            padding: 20px;
+            justify-items: start;
+        }
+    }
+}
+
 .card {
     background-color: var(--color-gray-300);
+    border: 1px solid var(--color-gray-300);
     border-radius: 12px;
+    padding: 10px;
+
+    &:hover {
+        border: 1px solid var(--color-gray-400);
+    }
 
     img {
-        margin: 20px;
         height: 156px;
         border-radius: 12px;
+        margin-bottom: 15px;
+    }
+
+    figcaption {
+        text-align: left;
+        padding: 5px;
     }
 }
