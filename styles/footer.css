@@ -41,34 +41,34 @@ footer {
     }
 }
 
-#LogoLinkedin {
+#logo-linkedin {
     background-image: url(../assets/icons/LinkedinLogo.svg);
-
-    &:hover {
-        background-image: url(../assets/icons/LinkedinLogoHover.svg);
-    }
 }
 
-#LogoInstagram {
+#link-linkedin:hover span{
+    background-image: url(../assets/icons/LinkedinLogoHover.svg);
+}
+
+#logo-instagram {
     background-image: url(../assets/icons/InstagramLogo.svg);
-
-    &:hover {
-        background-image: url(../assets/icons/InstagramLogoHover.svg);
-    }
 }
 
-#LogoGithub {
+#link-instagram:hover span{
+    background-image: url(../assets/icons/InstagramLogoHover.svg);
+}
+
+#logo-github {
     background-image: url(../assets/icons/GithubLogo.svg);
-
-    &:hover {
-        background-image: url(../assets/icons/GithubLogoHover.svg);
-    }
 }
 
-#LogoEmail {
-    background-image: url(../assets/icons/EnvelopeSimple.svg);
+#link-github:hover span{
+    background-image: url(../assets/icons/GithubLogoHover.svg);
+}
 
-    &:hover {
-        background-image: url(../assets/icons/EnvelopeSimpleHover.svg);
-    }
+#logo-email {
+    background-image: url(../assets/icons/EnvelopeSimple.svg);
+}
+
+#link-email:hover span{
+    background-image: url(../assets/icons/EnvelopeSimpleHover.svg);
 }
