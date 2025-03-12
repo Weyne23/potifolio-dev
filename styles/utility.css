@@ -5,8 +5,13 @@
 .flex {
     display: flex;
 }
+
 .gap-24 {
     gap: 24px;
+}
+
+.column-gap-24 {
+    column-gap: 24px;
 }
 
 .grid-cols-3 {

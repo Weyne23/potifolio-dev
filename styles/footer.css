@@ -1,0 +1,74 @@
+footer {
+    padding-block: 128px 200px;
+    padding-inline: 120px;
+    text-align: center;
+    background-image: url("../assets/images/Background_Contacts.png");
+    background-size: cover;
+
+    &  h3 {
+        color: var(--color-purple);
+    }
+}
+
+#my-contacts {
+    row-gap: 8px;
+    margin-bottom: 48px;
+}
+
+#contacts-link {
+    row-gap: 16px;
+
+    .card-footer {
+        align-items: center;
+        border-radius: 8px;
+        background-color: var(--color-gray-300);
+        padding: 20px;
+        border: solid 1px var(--color-gray-300); 
+
+        p {
+            margin-right: auto;
+            margin-left: 15px;
+        }
+
+        span:nth-child(1) {
+            height: 28px;
+            width: 28px;
+        }
+
+        &:hover {
+            border: solid 1px var(--color-blue); 
+        }
+    }
+}
+
+#LogoLinkedin {
+    background-image: url(../assets/icons/LinkedinLogo.svg);
+
+    &:hover {
+        background-image: url(../assets/icons/LinkedinLogoHover.svg);
+    }
+}
+
+#LogoInstagram {
+    background-image: url(../assets/icons/InstagramLogo.svg);
+
+    &:hover {
+        background-image: url(../assets/icons/InstagramLogoHover.svg);
+    }
+}
+
+#LogoGithub {
+    background-image: url(../assets/icons/GithubLogo.svg);
+
+    &:hover {
+        background-image: url(../assets/icons/GithubLogoHover.svg);
+    }
+}
+
+#LogoEmail {
+    background-image: url(../assets/icons/EnvelopeSimple.svg);
+
+    &:hover {
+        background-image: url(../assets/icons/EnvelopeSimpleHover.svg);
+    }
+}
